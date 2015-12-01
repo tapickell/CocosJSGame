@@ -27,6 +27,7 @@ var MenuLayer = cc.Layer.extend({
     },
     onPlay : function() {
         cc.log("==onPlay Clicked");
+        cc.director.runScene(new PlayScene());
     }
 });
 
